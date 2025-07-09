@@ -1,0 +1,52 @@
+body{
+  background: linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);
+  background-size: 1920px 1080px;
+  text-align: center;
+}
+h1{
+  font-family: "Rye", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+}
+.box{
+  background-image: url("https://i.imghippo.com/files/HtK2021A.jpg");
+  background-size: 526px 500px;
+  max-width: 470px;
+  height: 410px;
+  margin: 30px auto 30px;
+  padding: 30px;
+  box-shadow: 15px 15px 9px rgba(65, 50, 100, 0.15);
+  border-radius: 3%;
+  text-align: center;
+  align-items: center;    
+  justify-content: center;
+  display: flex;
+  font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+.search{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 20px;
+  border-width: 4px;
+}
+.submit{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 15px;
+  border-radius: 20px;
+  background-color: #c4745e;
+  margin-left: 10px;
+}
+footer{
+  margin-top: 35px;
+}
