@@ -1,7 +1,14 @@
-function generatepoem(event) {
-  event.preventDefult();
-  alert("generating poem");
+function generatePoem(event) {
+  event.preventDefault();
+
+  new Typewriter('#poem', {
+    strings: ['A simple verse, a fleeting thought'],
+    autoStart: true,
+    delay:1,
+    cursor: "",
+  });
+
 }
 
 let poemFormElement = document.querySelector("#poem-generator-form");
-poemFormElement.addEventListener("submit", generatepoem);
+poemFormElement.addEventListener("submit", generatePoem);
