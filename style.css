@@ -47,6 +47,14 @@ h1{
   background-color: #c4745e;
   margin-left: 10px;
 }
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+}
 footer{
-  margin-top: 35px;
+  margin-top: 40px;
 }
