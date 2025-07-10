@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Chicle&family=Cookie&family=Engagement&family=Fascinate&family=Molle&family=New+Rocker&family=Rye&family=Sancreek&family=Ultra&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   <link rel="stylesheet" href="style.css" />
   <title>AI poem generator</title>
 </head>
@@ -22,7 +23,8 @@
       <input class="search" type="text" placeholder="Enter the topic of the poem " 
         autofocus 
         required 
-        autocomplete="off" />
+        autocomplete="off"
+        id="user-instructions" />
       <input class="submit" type="submit" />
       </form>
 
